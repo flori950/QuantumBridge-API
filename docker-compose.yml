@@ -27,7 +27,7 @@ services:
       - redis-data:/data
 
   postgres:
-    image: postgres:15-alpine
+    image: postgres:17-alpine
     environment:
       POSTGRES_DB: quantum_jobs
       POSTGRES_USER: quantum_user
